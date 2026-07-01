@@ -20,7 +20,7 @@ export default function Home({ catalogData, onProductClick, setView }) {
             <span className="lumiere">LUMIERE</span>
           </div>
           <div className="hero-rule"></div>
-          <p className="hero-sub">Vintage streetwear discipline, cut for the streets of Manila. Clean aesthetics, raw attitude.</p>
+          <p className="hero-sub">Vintage streetwear discipline, cut for the streets of Manila. Clean aesthetics, effortless swagger.</p>
           <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'catalog', filter: 'all' }); }} className="hero-cta">
             Explore the Collection
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>

@@ -8,7 +8,7 @@ export default function Footer({ setView }) {
           <div className="footer-mark">
             <span className="mnl">MNL</span>
             <span className="lumiere">LUMIERE</span>
-            <p>Premium vintage streetwear, cut for the streets of Manila. Clean aesthetics, raw attitude. Made in Manila.</p>
+            <p>Premium vintage streetwear, cut for the streets of Manila. Clean aesthetics, effortless swagger. Made in Manila.</p>
           </div>
           <div className="footer-col">
             <h4>Shop</h4>
