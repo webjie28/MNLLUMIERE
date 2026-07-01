@@ -950,3 +950,234 @@ footer{ background:var(--ink); color:var(--stone-light); padding:64px 0 28px; }
   color: var(--gold);
 }
 
+/* ---------- Account Drawer & Fullscreen Modal ---------- */
+.account-drawer {
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+}
+
+.account-fullscreen-modal {
+  position: fixed;
+  inset: 0;
+  background: #121212;
+  color: #fff;
+  z-index: 1010;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  overflow-y: auto;
+}
+
+.account-modal-close {
+  position: absolute;
+  top: 32px;
+  right: 40px;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 36px;
+  cursor: pointer;
+  z-index: 1020;
+}
+
+.account-modal-inner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  max-width: 1040px;
+  gap: 80px;
+  align-items: center;
+}
+
+/* Glowing Silver Metallic Membership Card */
+.account-card-showcase {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prestige-metall-card {
+  position: relative;
+  width: 440px;
+  height: 260px;
+  border-radius: 16px;
+  background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 45%, #cccccc 70%, #f0f0f0 100%);
+  border: 1px solid rgba(255, 255, 255, 0.45);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.5), 
+    inset 0 1px 2px rgba(255, 255, 255, 0.6),
+    0 0 40px rgba(255, 255, 255, 0.05);
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  color: #2b2b2b;
+}
+
+.card-gloss {
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    45deg,
+    transparent 45%,
+    rgba(255, 255, 255, 0.3) 48%,
+    rgba(255, 255, 255, 0.6) 50%,
+    rgba(255, 255, 255, 0.3) 52%,
+    transparent 55%
+  );
+  transform: rotate(-15deg);
+  pointer-events: none;
+  animation: shine 8s infinite linear;
+}
+
+@keyframes shine {
+  0% { transform: translate(-30%, -30%) rotate(-15deg); }
+  100% { transform: translate(30%, 30%) rotate(-15deg); }
+}
+
+.card-top-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-badge-txt {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.card-logo-txt {
+  font-family: var(--display);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.15em;
+  color: #2b2b2b;
+}
+
+.card-insignia {
+  font-family: var(--display);
+  font-size: 80px;
+  font-weight: 400;
+  align-self: center;
+  background: linear-gradient(180deg, #555 0%, #111 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 0.85;
+  user-select: none;
+  letter-spacing: -0.05em;
+  filter: drop-shadow(0 1px 1px rgba(255,255,255,0.6));
+}
+
+.card-footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.card-holder {
+  font-family: var(--mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #333;
+}
+
+.card-prestige-label {
+  font-family: var(--mono);
+  font-size: 9px;
+  letter-spacing: 0.3em;
+  font-weight: 600;
+  color: #444;
+}
+
+/* Account Form Inputs */
+.account-form-panel {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-line-group {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #333;
+  padding: 8px 0;
+  transition: border-color 0.2s ease;
+}
+
+.input-line-group:focus-within {
+  border-color: #fff;
+}
+
+.input-line-group label {
+  font-family: var(--mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  color: var(--stone);
+  margin-bottom: 4px;
+  letter-spacing: 0.05em;
+}
+
+.input-line-group input {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  padding: 4px 0;
+  outline: none;
+}
+
+.input-line-group input::placeholder {
+  color: #555;
+}
+
+.prestige-submit-btn {
+  background: #fff;
+  color: #000;
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+.prestige-submit-btn:hover {
+  background: var(--gold);
+  color: #000;
+}
+
+.prestige-submit-btn:disabled {
+  background: #444;
+  color: #888;
+  cursor: not-allowed;
+}
+
+@media (max-width: 900px) {
+  .account-modal-inner-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+  .prestige-metall-card {
+    width: 340px;
+    height: 200px;
+    padding: 20px;
+  }
+  .card-insignia {
+    font-size: 60px;
+  }
+}
+
+
