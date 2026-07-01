@@ -1,0 +1,372 @@
+[
+  {
+    "id": "represent-sweatpant-1",
+    "name": "Owners Club Sweatpant",
+    "category": "Outerwear",
+    "price": "₱2,800",
+    "tag": "NEW",
+    "color": "Sky Blue",
+    "image": "images/represent_sweatpant_main.png",
+    "detail_image": "images/represent_sweatpant_detail.png"
+  },
+  {
+    "id": "new-arrival-1",
+    "name": "MNL Track Jacket v2",
+    "category": "Outerwear",
+    "price": "₱2,350",
+    "tag": "NEW",
+    "color": "Ink black",
+    "image": "images/new_arrival_1.png",
+    "detail_image": "images/new_arrival_1.png"
+  },
+  {
+    "id": "new-arrival-2",
+    "name": "Asphalt Motorsport Tee",
+    "category": "Tops",
+    "price": "₱1,100",
+    "tag": "BESTSELLER",
+    "color": "Cream sand",
+    "image": "images/new_arrival_2.png",
+    "detail_image": "images/new_arrival_2.png"
+  },
+  {
+    "id": "new-arrival-3",
+    "name": "Vintage Windbreaker",
+    "category": "Outerwear",
+    "price": "₱2,800",
+    "tag": "LIMITED",
+    "color": "Carbon black",
+    "image": "images/new_arrival_3.png",
+    "detail_image": "images/new_arrival_3.png"
+  },
+  {
+    "id": "new-arrival-4",
+    "name": "Grit Heavy Cargo Pant",
+    "category": "Outerwear",
+    "price": "₱1,950",
+    "tag": "NEW",
+    "color": "Stone grey",
+    "image": "images/new_arrival_4.png",
+    "detail_image": "images/new_arrival_4.png"
+  },
+  {
+    "id": "new-arrival-6",
+    "name": "Lumiere Motor Discipline Hoodie",
+    "category": "Tops",
+    "price": "₱1,950",
+    "tag": "NEW",
+    "color": "Gold trim",
+    "image": "images/new_arrival_6.png",
+    "detail_image": "images/new_arrival_6.png"
+  },
+  {
+    "id": "new-arrival-7",
+    "name": "Concrete Oversized Sweater",
+    "category": "Tops",
+    "price": "₱1,550",
+    "tag": "",
+    "color": "Sand cream",
+    "image": "images/new_arrival_7.png",
+    "detail_image": "images/new_arrival_7.png"
+  },
+  {
+    "id": "new-arrival-8",
+    "name": "Manila Speedway Vest",
+    "category": "Outerwear",
+    "price": "₱1,650",
+    "tag": "",
+    "color": "Ink black",
+    "image": "images/new_arrival_8.png",
+    "detail_image": "images/new_arrival_8.png"
+  },
+  {
+    "id": "new-arrival-9",
+    "name": "Pursuit Nylon Cap",
+    "category": "Accessories",
+    "price": "₱850",
+    "tag": "",
+    "color": "Asphalt",
+    "image": "images/new_arrival_9.png",
+    "detail_image": "images/new_arrival_9.png"
+  },
+  {
+    "id": "new-arrival-10",
+    "name": "Underground Cargo Short",
+    "category": "Outerwear",
+    "price": "₱1,450",
+    "tag": "",
+    "color": "Dusty stone",
+    "image": "images/new_arrival_10.png",
+    "detail_image": "images/new_arrival_10.png"
+  },
+  {
+    "id": "new-arrival-11",
+    "name": "Distressed Denim Overshirt",
+    "category": "Outerwear",
+    "price": "₱2,100",
+    "tag": "",
+    "color": "Raw indigo",
+    "image": "images/new_arrival_11.png",
+    "detail_image": "images/new_arrival_11.png"
+  },
+  {
+    "id": "new-arrival-12",
+    "name": "Street Discipline Track Pant",
+    "category": "Outerwear",
+    "price": "₱1,750",
+    "tag": "",
+    "color": "Concrete grey",
+    "image": "images/new_arrival_12.png",
+    "detail_image": "images/new_arrival_12.png"
+  },
+  {
+    "id": "new-arrival-13",
+    "name": "Archive Grid Crewneck",
+    "category": "Tops",
+    "price": "₱1,450",
+    "tag": "",
+    "color": "Sand",
+    "image": "images/new_arrival_13.png",
+    "detail_image": "images/new_arrival_13.png"
+  },
+  {
+    "id": "new-arrival-14",
+    "name": "Jeepney Speedway Tee",
+    "category": "Tops",
+    "price": "₱950",
+    "tag": "",
+    "color": "Cream",
+    "image": "images/new_arrival_14.png",
+    "detail_image": "images/new_arrival_14.png"
+  },
+  {
+    "id": "new-arrival-15",
+    "name": "Grit Strapback Cap",
+    "category": "Accessories",
+    "price": "₱850",
+    "tag": "",
+    "color": "Ink black",
+    "image": "images/new_arrival_15.png",
+    "detail_image": "images/new_arrival_15.png"
+  },
+  {
+    "id": "new-arrival-16",
+    "name": "Lumiere Utility Backpack",
+    "category": "Accessories",
+    "price": "₱2,450",
+    "tag": "NEW",
+    "color": "Carbon black",
+    "image": "images/new_arrival_16.png",
+    "detail_image": "images/new_arrival_16.png"
+  },
+  {
+    "id": "women-arrival-1",
+    "name": "Manila Utility Corset Vest",
+    "category": "Women",
+    "price": "₱1,650",
+    "tag": "NEW",
+    "color": "Raw canvas",
+    "image": "images/women_1.png",
+    "detail_image": "images/women_1.png"
+  },
+  {
+    "id": "women-arrival-2",
+    "name": "Asphalt Oversized Blazer",
+    "category": "Women",
+    "price": "₱2,750",
+    "tag": "BESTSELLER",
+    "color": "Ink black",
+    "image": "images/women_2.png",
+    "detail_image": "images/women_2.png"
+  },
+  {
+    "id": "women-arrival-3",
+    "name": "Grit Cutout crop Sweater",
+    "category": "Women",
+    "price": "₱1,450",
+    "tag": "LIMITED",
+    "color": "Cement grey",
+    "image": "images/women_3.png",
+    "detail_image": "images/women_3.png"
+  },
+  {
+    "id": "women-arrival-4",
+    "name": "Underpass Cargo Skirt",
+    "category": "Women",
+    "price": "₱1,850",
+    "tag": "NEW",
+    "color": "Stone grey",
+    "image": "images/women_4.png",
+    "detail_image": "images/women_4.png"
+  },
+  {
+    "id": "women-arrival-5",
+    "name": "Discipline Ribbed Crop Tee",
+    "category": "Women",
+    "price": "₱850",
+    "tag": "",
+    "color": "Sand cream",
+    "image": "images/women_5.png",
+    "detail_image": "images/women_5.png"
+  },
+  {
+    "id": "women-arrival-6",
+    "name": "Speedway Nylon Parachute Pant",
+    "category": "Women",
+    "price": "₱2,100",
+    "tag": "NEW",
+    "color": "Slate grey",
+    "image": "images/women_6.png",
+    "detail_image": "images/women_6.png"
+  },
+  {
+    "id": "women-arrival-7",
+    "name": "Lumiere Heavy Terry Zip Jacket",
+    "category": "Women",
+    "price": "₱2,450",
+    "tag": "",
+    "color": "Carbon black",
+    "image": "images/women_7.png",
+    "detail_image": "images/women_7.png"
+  },
+  {
+    "id": "women-arrival-8",
+    "name": "Manila Asphalt Knitted Top",
+    "category": "Women",
+    "price": "₱1,250",
+    "tag": "",
+    "color": "Desert sand",
+    "image": "images/women_8.png",
+    "detail_image": "images/women_8.png"
+  },
+  {
+    "id": "women-arrival-9",
+    "name": "Motorsport Track Crop Hoodie",
+    "category": "Women",
+    "price": "₱1,950",
+    "tag": "NEW",
+    "color": "Ink black",
+    "image": "images/women_9.png",
+    "detail_image": "images/women_9.png"
+  },
+  {
+    "id": "men-tshirt-1",
+    "name": "MNL Moto Graphic Tee",
+    "category": "Tops",
+    "price": "₱1,100",
+    "tag": "NEW",
+    "color": "Ink black",
+    "image": "images/men_tshirt_1.png",
+    "detail_image": "images/men_tshirt_1.png"
+  },
+  {
+    "id": "men-tshirt-2",
+    "name": "Manila Asphalt Heavyweight Tee",
+    "category": "Tops",
+    "price": "₱1,250",
+    "tag": "BESTSELLER",
+    "color": "Asphalt",
+    "image": "images/men_tshirt_2.png",
+    "detail_image": "images/men_tshirt_2.png"
+  },
+  {
+    "id": "men-tshirt-3",
+    "name": "Speedway Vintage Wash Tee",
+    "category": "Tops",
+    "price": "₱1,350",
+    "tag": "LIMITED",
+    "color": "Faded charcoal",
+    "image": "images/men_tshirt_3.png",
+    "detail_image": "images/men_tshirt_3.png"
+  },
+  {
+    "id": "men-tshirt-4",
+    "name": "Discipline Motorsport Tee",
+    "category": "Tops",
+    "price": "₱1,150",
+    "tag": "",
+    "color": "Stone white",
+    "image": "images/men_tshirt_4.png",
+    "detail_image": "images/men_tshirt_4.png"
+  },
+  {
+    "id": "men-tshirt-5",
+    "name": "MNL Retro Racing Tee",
+    "category": "Tops",
+    "price": "₱1,200",
+    "tag": "",
+    "color": "Washed black",
+    "image": "images/men_tshirt_5.png",
+    "detail_image": "images/men_tshirt_5.png"
+  },
+  {
+    "id": "men-tshirt-6",
+    "name": "Lumiere Racing Club Tee",
+    "category": "Tops",
+    "price": "₱1,250",
+    "tag": "NEW",
+    "color": "Desert sand",
+    "image": "images/men_tshirt_6.png",
+    "detail_image": "images/men_tshirt_6.png"
+  },
+  {
+    "id": "men-tshirt-7",
+    "name": "Concrete Grid Graphic Tee",
+    "category": "Tops",
+    "price": "₱1,100",
+    "tag": "",
+    "color": "Asphalt grey",
+    "image": "images/men_tshirt_7.png",
+    "detail_image": "images/men_tshirt_7.png"
+  },
+  {
+    "id": "men-tshirt-8",
+    "name": "MNL Asphalt Boxy Tee",
+    "category": "Tops",
+    "price": "₱1,300",
+    "tag": "",
+    "color": "Carbon black",
+    "image": "images/men_tshirt_8.png",
+    "detail_image": "images/men_tshirt_8.png"
+  },
+  {
+    "id": "men-tshirt-9",
+    "name": "Speedway Archive Graphic Tee",
+    "category": "Tops",
+    "price": "₱1,200",
+    "tag": "",
+    "color": "Vintage cream",
+    "image": "images/men_tshirt_9.png",
+    "detail_image": "images/men_tshirt_9.png"
+  },
+  {
+    "id": "archive-drop-1",
+    "name": "Motorsport Canvas Blouson",
+    "category": "Outerwear",
+    "price": "₱2,950",
+    "tag": "LIMITED",
+    "color": "Vintage grey",
+    "image": "images/archive_1.png",
+    "detail_image": "images/archive_1.png"
+  },
+  {
+    "id": "archive-drop-2",
+    "name": "Manila Speedway Racing Pant",
+    "category": "Outerwear",
+    "price": "₱2,200",
+    "tag": "LIMITED",
+    "color": "Ink black",
+    "image": "images/archive_2.png",
+    "detail_image": "images/archive_2.png"
+  },
+  {
+    "id": "archive-drop-3",
+    "name": "Asphalt Wind Hooded Vest",
+    "category": "Outerwear",
+    "price": "₱1,850",
+    "tag": "LIMITED",
+    "color": "Cement stone",
+    "image": "images/archive_3.png",
+    "detail_image": "images/archive_3.png"
+  }
+]
