@@ -13,9 +13,9 @@ export default function AboutPage() {
 
         <div style={{ display: 'grid', gridTemplateColumns: '1.2fr 1fr', gap: '64px', marginBottom: '80px' }}>
           <div>
-            <h3 style={{ fontFamily: 'var(--display)', fontSize: '28px', fontWeight: 600, marginBottom: '24px' }}>Motorsport meets Underground Manila</h3>
+            <h3 style={{ fontFamily: 'var(--display)', fontSize: '28px', fontWeight: 600, marginBottom: '24px' }}>Vintage meets Underground Manila</h3>
             <p style={{ color: 'var(--stone)', fontSize: '15px', lineHeight: '1.7', marginBottom: '20px' }}>
-              Established in Manila, MNL Lumiere was born from a desire to combine vintage racing culture with premium, heavyweight street wear. The result is a clean yet swagger-filled collection designed for daily urban utility.
+              Established in Manila, MNL Lumiere was born from a desire to combine vintage utility culture with premium, heavyweight street wear. The result is a clean yet swagger-filled collection designed for daily urban utility.
             </p>
             <p style={{ color: 'var(--stone)', fontSize: '15px', lineHeight: '1.7', marginBottom: '20px' }}>
               Our design team operates out of Manila, sourcing locally, creating original silhouettes, and working closely with local craftspeople to tailoring limited releases.

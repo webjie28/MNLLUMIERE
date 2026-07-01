@@ -20,7 +20,7 @@ export default function Home({ catalogData, onProductClick, setView }) {
             <span className="lumiere">LUMIERE</span>
           </div>
           <div className="hero-rule"></div>
-          <p className="hero-sub">Vintage motorsport discipline, cut for the streets of Manila. Clean aesthetics, raw attitude.</p>
+          <p className="hero-sub">Vintage streetwear discipline, cut for the streets of Manila. Clean aesthetics, raw attitude.</p>
           <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'catalog', filter: 'all' }); }} className="hero-cta">
             Explore the Collection
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6" /></svg>
@@ -54,7 +54,7 @@ export default function Home({ catalogData, onProductClick, setView }) {
           <div className="manifesto-inner">
             <p className="eyebrow">Manila Streetwear Discipline</p>
             <blockquote className="manifesto-quote">
-              "We design for the midnight racers, the asphalt walkers, and the concrete dreamers. Raw finishes, heavy fabrics, and motorsport cuts. Cut and sewn ethically in the heart of Manila."
+              "We design for the asphalt walkers, and the concrete dreamers. Raw finishes, heavy fabrics, and structured cuts. Cut and sewn ethically in the heart of Manila."
             </blockquote>
             <cite className="manifesto-cite">MNL Lumiere Design Dept</cite>
           </div>
@@ -67,7 +67,7 @@ export default function Home({ catalogData, onProductClick, setView }) {
             <div className="manifesto-cell">
               <div className="num">02</div>
               <div className="label">Speed Discipline</div>
-              <div className="desc">Inspired by vintage motorsport graphics, clean typography, and race track lines.</div>
+              <div className="desc">Inspired by vintage utility graphics, clean typography, and raw architectural lines.</div>
             </div>
             <div className="manifesto-cell">
               <div className="num">03</div>

@@ -20,7 +20,7 @@ export default function ManifestoPage() {
             <span style={{ fontFamily: 'var(--mono)', fontSize: '11px', color: 'var(--gold-light)', display: 'block', marginBottom: '16px' }}>01 / SPEED DISCIPLINE</span>
             <h3 style={{ fontFamily: 'var(--display)', fontSize: '20px', fontWeight: 600, marginBottom: '12px' }}>Precision & Velocity</h3>
             <p style={{ fontSize: '13px', color: 'var(--stone-light)', lineHeight: '1.7' }}>
-              Inspired by vintage motorsport racing lines. Clean graphics, functional panel overlays, and industrial zip pulls that recall late-night speedway runs on Manila asphalt.
+              Inspired by vintage utility structures. Clean graphics, functional panel overlays, and industrial zip pulls that recall late-night runs on Manila asphalt.
             </p>
           </div>
           <div style={{ background: 'rgba(255,249,238,0.02)', padding: '40px 32px', border: '1px solid rgba(255,249,238,0.05)', borderRadius: '2px' }}>

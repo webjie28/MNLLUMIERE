@@ -12,7 +12,7 @@ const PRODUCT_COLORS = {
     { name: "Slate grey", hex: "#8a8579" },
     { name: "Sand", hex: "#dfd9cf" }
   ],
-  "Asphalt Motorsport Tee": [
+  "Asphalt Arch Tee": [
     { name: "Cream sand", hex: "#f3ede3" },
     { name: "Carbon black", hex: "#1f1f1e" },
     { name: "Sky Blue", hex: "#92c9e8" }
