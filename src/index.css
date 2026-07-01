@@ -1180,4 +1180,23 @@ footer{ background:var(--ink); color:var(--stone-light); padding:64px 0 28px; }
   }
 }
 
+.mobile-menu-trigger {
+  display: none;
+  cursor: pointer;
+  align-items: center;
+}
+.mobile-menu-trigger svg {
+  width: 20px;
+  height: 20px;
+}
+
+@media (max-width: 860px) {
+  .mobile-menu-trigger {
+    display: flex;
+  }
+  .nav-inner {
+    padding: 0 16px;
+  }
+}
+
 

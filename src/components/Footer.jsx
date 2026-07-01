@@ -19,20 +19,20 @@ export default function Footer({ setView }) {
           </div>
           <div className="footer-col">
             <h4>Brand</h4>
-            <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'home' }); }}>The foundation</a>
-            <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'home' }); }}>Manifesto</a>
-            <a href="#">Stockists</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'foundation' }); }}>The foundation</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'manifesto' }); }}>Manifesto</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'about' }); }}>About</a>
           </div>
           <div className="footer-col">
             <h4>Support</h4>
-            <a href="#">Shipping</a>
-            <a href="#">Returns</a>
-            <a href="#">Contact</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'about' }); }}>Shipping</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'about' }); }}>Returns</a>
+            <a href="#" onClick={(e) => { e.preventDefault(); setView({ name: 'about' }); }}>Contact</a>
           </div>
         </div>
         <div className="footer-bottom">
           <span>© 2026 MNL Lumiere — Manila, Philippines</span>
-          <span>IG @mnllumiere</span>
+          <a href="https://www.instagram.com/mnllumiere/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--stone)', textDecoration: 'none' }}>IG @mnllumiere</a>
         </div>
       </div>
     </footer>

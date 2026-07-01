@@ -45,7 +45,7 @@ export default function AboutPage() {
             </h4>
             <p style={{ fontSize: '13px', color: 'var(--ink)' }}>
               Email: <strong>studio@mnllumiere.com</strong> <br />
-              Instagram: <strong>@mnllumiere</strong>
+              Instagram: <a href="https://www.instagram.com/mnllumiere/" target="_blank" rel="noopener noreferrer" style={{ color: 'var(--ink)', fontWeight: 'bold', textDecoration: 'underline' }}>@mnllumiere</a>
             </p>
           </div>
         </div>
